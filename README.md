@@ -3,7 +3,7 @@ A full-scale data analytics project simulating a real-world entertainment indust
 
 ## Table of Contents 
 - [Project Overview](#Project-Overview)
-- [Key Metrics & Insights](#key-metrics--insights)
+- [Repository Structure](#Repository-Structure)
 - [Recommendation](#recommendation)
 - [Tools Used](#tools-used)
 - [Outcome](#outcome)
@@ -16,3 +16,24 @@ This project was developed as a portfolio case study simulating an analytics eng
 The business problem: the client's executive team had no clear framework for identifying which genres, studios, platforms, directors, and budget ranges were actually generating value — and which were quietly destroying it.
 
 The deliverable: a fully structured Microsoft Excel workbook containing a data cleaning audit, 20 answered business questions, five analytical frameworks, a statistical outlier detection engine, a 3-year revenue forecast, a platform-genre strategy matrix, and an executive dashboard — all powered by live formulas with zero hardcoded answers.
+
+
+## 🗂️ Repository Structure
+
+### [📊 CineLytics_Film_Analytics_Dataset.xlsx]()
+
+| 📁 screenshots | Purpose |
+|-----------------|-----------------|
+│ 01_executive_dashboard.png | 
+│ 02_platform_genre_matrix.png |
+│ 03_outlier_detection_engine.png |
+│ 04_studio_efficiency_scorecard.png |
+│ 05_revenue_forecast_chart.png |
+│ 6_genre_profitability_matrix.png |
+
+| 📁 docs | Purpose |
+│ business_questions.md                   ← All 20 questions with techniques
+│ data_dictionary.md                      ← Column-level documentation
+│ insights_summary.md                     ← Key findings write-up
+│ excel_skills_guide.md                   ← Techniques and formulas used
+
