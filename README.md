@@ -301,8 +301,8 @@ It was designed to simulate the kind of analytical engagement a Financial Data A
 
 ## 🔗 Connect
 
-LinkedIn
-Email
+{LinkedIn]("https://www.linkedin.com/in/oyinlola-oladeji-430108294/")
+[Email]("http://mail.google.com/oluwanifesimi988@gmail.com")
 
 ## 📄 License
 
