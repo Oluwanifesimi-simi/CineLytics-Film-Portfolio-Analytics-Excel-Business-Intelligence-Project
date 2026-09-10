@@ -2,11 +2,19 @@
 A full-scale data analytics project simulating a real-world entertainment industry engagement — built entirely in Microsoft Excel across 15,000 film records, 26 variables, and 91,219 live formula calculations.
 
 ## Table of Contents 
-- [Project Overview](#Project-Overview)
-- [Repository Structure](#Repository-Structure)
-- [Recommendation](#recommendation)
-- [Tools Used](#tools-used)
-- [Outcome](#outcome)
+- [Project Overview](#project-overview)
+- [Repository Structure](#repository-structure)
+- [Dataset Specifications](#dataset-specifications)
+- [Workbook Structure](#workbook-structure)
+- [Key Analyses Performed](#key-analyses-performed)
+- [Key Findings](#key-findings)
+- [Excel Techniques Reference](#excel-techniques-reference)
+- [Business Questions Answered (20 Total)](#business-questions-answered (20 Total))
+- [How to Use This Workbook](#how-to-use-this-workbook)
+- [Project Specifications](#project-specifications)
+- [About This Project](#about-this-project)
+- [Connect](#connect)
+- [License](#license)
 
 
 ## 📌 Project Overview
@@ -20,7 +28,7 @@ The deliverable: a fully structured Microsoft Excel workbook containing a data c
 
 ## 🗂️ Repository Structure
 
-### [📊 CineLytics_Film_Analytics_Dataset.xlsx]()
+### [📊 CineLytics_Film_Analytics_Dataset.xlsx]("C:\Users\hp\OneDrive\Documenti\My Data Sources (For Training)\Excel Practise Training\CineLytics_Film_Analytics_Dataset - Original.xlsx")
 
 | 📁 screenshots | Purpose |
 |-----------------|-------------|
