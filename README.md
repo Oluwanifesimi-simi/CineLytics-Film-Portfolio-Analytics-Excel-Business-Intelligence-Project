@@ -41,7 +41,7 @@ The deliverable: a fully structured Microsoft Excel workbook containing a data c
 
 | 📁 docs/Paths | Purpose |
 |-----------------|-----------------|
-|  | All 20 questions with techniques · Column-level documentation · Key findings write-up · Techniques and formulas used
+| `CineLytics_Film_Analytics_Dataset - Original.xlsx` | All 20 questions with techniques · Column-level documentation · Key findings write-up · Techniques and formulas used
 | `CineLytics-Film-Portfolio-Analytics-Excel-Business-Intelligence-Project/README.md` | Project narrative, table of contents, Structures, insights, and visual documentation. |
 
 ## 📋 Dataset Specifications
