@@ -33,18 +33,15 @@ The deliverable: a fully structured Microsoft Excel workbook containing a data c
 | 📁 screenshots | Purpose |
 |-----------------|-------------|
 | 01_executive_dashboard.png | Chart Visualization |
-| 02_platform_genre_matrix.png | 
-| 03_outlier_detection_engine.png |
-| 04_studio_efficiency_scorecard.png |
-| 05_revenue_forecast_chart.png |
-| 6_genre_profitability_matrix.png |
+| 02_platform_genre_matrix.png | Best performing streaming platforms by genre |
+| 03_outlier_detection_engine.png | Statistical outliers- blockbusters & flops |
+| 04_studio_efficiency_scorecard.png | ROI efficiency for each company |
+| 05_revenue_forecast_chart.png | 3-year industry revenue forecast |
+| 6_Country_profitability_table.png | Countries with the most profitable films |
 
 | 📁 docs/Paths | Purpose |
 |-----------------|-----------------|
-| business_questions.md | All 20 questions with techniques |
-| data_dictionary.md | Column-level documentation |
-| insights_summary.md | Key findings write-up |
-| excel_skills_guide.md | Techniques and formulas used |
+|                                | All 20 questions with techniques · Column-level documentation · Key findings write-up · Techniques and formulas used
 | `https://github.com/Oluwanifesimi-simi/CineLytics-Film-Portfolio-Analytics-Excel-Business-Intelligence-Project`                          | Project narrative, table of contents, Structures, insights, and visual documentation. |
 
 ## 📋 Dataset Specifications
