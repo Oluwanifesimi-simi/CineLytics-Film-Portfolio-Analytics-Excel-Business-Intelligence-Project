@@ -4,18 +4,18 @@ A full-scale data analytics project simulating a real-world entertainment indust
 ## Table of Contents 
 
 - [📌 Project Overview](#project-overview)
-- [Repository Structure](#repository-structure)
-- [Dataset Specifications](#dataset-specifications)
-- [Workbook Structure](#workbook-structure)
-- [Key Analysis Performed](#key-analysis-performed)
-- [Key Findings](#key-findings)
-- [Excel Techniques Reference](#excel-techniques-reference)
-- [Business Questions Answered (20 Total)](#business-questions-answered-20-total)
-- [How to Use This Workbook](#how-to-use-this-workbook)
-- [Project Specifications](#project-specifications)
-- [About This Project](#about-this-project)
-- [Connect](#connect)
-- [License](#license)
+- [🗂️ Repository Structure](#repository-structure)
+- [📋 Dataset Specifications](#dataset-specifications)
+- [🗃️ Workbook Structure (8 Sheets)](#workbook-structure-8-sheets)
+- [🔍 Key Analyses Performed](#key-analysis-performed)
+- [💡 Key Findings](#key-findings)
+- [🛠️ Excel Techniques Reference](#excel-techniques-reference)
+- [📈 Business Questions Answered (20 Total)](#business-questions-answered-20-total)
+- [🚀 How to Use This Workbook](#how-to-use-this-workbook)
+- [📐 Project Specifications](#project-specifications)
+- [👩🏽‍💻 About This Project](#about-this-project)
+- [🔗 Connect](#connect)
+- [📄 License](#license)
 
 
 ## 📌 Project Overview
