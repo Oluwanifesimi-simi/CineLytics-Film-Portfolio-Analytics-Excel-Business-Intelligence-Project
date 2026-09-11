@@ -37,7 +37,7 @@ The deliverable: a fully structured Microsoft Excel workbook containing a data c
 | 03_outlier_detection_engine.png | Statistical outliers- blockbusters & flops |
 | 04_studio_efficiency_scorecard.png | ROI efficiency for each company |
 | 05_revenue_forecast_chart.png | 3-year industry revenue forecast |
-| 6_Country_profitability_table.png | Countries with the most profitable films |
+| 06_Country_profitability_table.png | Countries with the most profitable films |
 
 | 📁 docs/Paths | Purpose |
 |-----------------|-----------------|
