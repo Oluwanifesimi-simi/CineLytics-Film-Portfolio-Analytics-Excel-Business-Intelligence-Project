@@ -2,14 +2,15 @@
 A full-scale data analytics project simulating a real-world entertainment industry engagement — built entirely in Microsoft Excel across 15,000 film records, 26 variables, and 91,219 live formula calculations.
 
 ## Table of Contents 
+
 - [Project Overview](#project-overview)
 - [Repository Structure](#repository-structure)
 - [Dataset Specifications](#dataset-specifications)
-- [Workbook Structure](#workbook-structure)
-- [Key Analyses Performed](#key-analyses-performed)
+- [Workbook Structure](#workbook-Structure)
+- [Key Analysis Performed](#key-analysis-performed)
 - [Key Findings](#key-findings)
 - [Excel Techniques Reference](#excel-techniques-reference)
-- [Business Questions Answered (20 Total)](#business-questions-answered20Total)
+- [Business Questions Answered (20 Total)](#business-questions-answered20total)
 - [How to Use This Workbook](#how-to-use-this-workbook)
 - [Project Specifications](#project-specifications)
 - [About This Project](#about-this-project)
@@ -56,7 +57,7 @@ The deliverable: a fully structured Microsoft Excel workbook containing a data c
 ### Columns included
 Movie ID · Movie Title · Genre · Production Budget ($M) · Box Office Revenue ($M) · Profit ($M) · Release Year · Release Month · Release Season · Runtime (min) · IMDb Rating · Rotten Tomatoes Score (%) · Director · Lead Actor/Actress · Production Company · Country · Streaming Platform · Number of Awards · Marketing Spend ($M) · Opening Weekend Sales ($M) · Audience Age Group · Viewer Rating (1–10) · Subscription Growth (%) · ROI (%) · Revenue per $ Budget · Profitability Tier
 
-## 🗃️ Workbook Structure (9 Sheets)
+## 🗃️ Workbook Structure (8 Sheets)
 **1. RAW DATA:**
 The full 15,000-row dataset with frozen headers, zebra-row formatting, and five additional derived columns added during analysis:
 | Column |	Name |	Purpose |
@@ -71,25 +72,10 @@ The full 15,000-row dataset with frozen headers, zebra-row formatting, and five 
 **2. DATA DICTIONARY:**
 Full column-level documentation covering data type, description, value range, example value, and analytical notes for all 26 original columns.
 
-**3. OUTLIER ANALYSIS:**
-Six-section statistical outlier detection framework:
+**3. PIVOT ANALYSIS:**
+contains 20 full answered business questions with summaries, working formulars and pivot tables.
 
-- Section 1 — Statistical Anchors (Mean, σ, ±2σ thresholds per metric)
-- Section 2 — Master Outlier Count by Label
-- Section 3 — Severity Score Distribution
-- Section 4 — Interpretation & Business Insight Guide
-- Section 5 — Visualization Data Tables + 3 live charts
-  
-**4. SUMMARY STATS**
-- Genre Performance Table (avg budget, revenue, profit, ROI, IMDb, RT Score, awards)
-- Franchise vs Non-Franchise Director Comparison (AVERAGEIF-powered)
-- Revenue Gap and % Revenue Premium calculations.
-
-**5. PLATFORM-GENRE MATRIX:**
-A fully live 10 × 15 matrix (10 streaming platforms × 15 genres) across Avg Profit ($M).
-Includes Platform Scorecard (Section 16) with dynamic INDEX/MATCH formulas returning each platform's best and worst genre by profit — updating automatically when data changes.
-
-**6. BUSINESS QUESTIONS:**
+**4. BUSINESS QUESTIONS:**
 20 structured analyst questions, each documented with:
 
 - Analytical category
@@ -98,10 +84,10 @@ Includes Platform Scorecard (Section 16) with dynamic INDEX/MATCH formulas retur
 - Difficulty level (Beginner / Intermediate / Advanced)
 - Expected output format
 
-**7. EXCEL SKILLS GUIDE:**
+**5. EXCEL SKILLS GUIDE:**
 22 Excel tools mapped to specific project tasks — from Pivot Tables through FORECAST.ETS, DAX Measures, and Dashboard Design — with real application examples from this dataset.
 
-**8. INSIGHTS GUIDE:**
+**6. INSIGHTS GUIDE:**
 15 annotated findings structured across three tiers:
 
 - 5 Beginner insights
@@ -110,7 +96,10 @@ Includes Platform Scorecard (Section 16) with dynamic INDEX/MATCH formulas retur
 
 Each entry includes the finding, why it matters, how to find it, and the key metric to report.
 
-**9. DASHBOARD TEMPLATE:**
+**7. FRANCHISE DIRECTORS**
+A lookup table that contains franchise directors information reference list
+
+**8. DASHBOARD TEMPLATE:**
 Executive dashboard shell with:
 
 - 7 chart placeholder zones
@@ -131,6 +120,8 @@ Executive dashboard shell with:
 - Budget bin analysis across 7 tiers ($0–25M through $200M+)
 - ROI sweet spot identification: $40–75M budget range
 - Profitability tier segmentation: Loss / Low / Medium / High
+  
+![Country profitability table](https://github.com/Oluwanifesimi-simi/CineLytics-Film-Portfolio-Analytics-Excel-Business-Intelligence-Project/blob/main/Screenshot1/06_Country_profitability_table.png.png)
 
 **3. Statistical Outlier Detection**
 
@@ -143,11 +134,15 @@ Lower Outlier = Value < AVERAGE - 2 × STDEV
 - 800 Revenue Blockbusters (5.3% of portfolio)
 - 79 Mega Blockbusters — flagged on all three metrics simultaneously
 - 90.6% of films classified as Normal — consistent with ±2σ statistical expectation
-  
+
+![Statistical Outliers](https://github.com/Oluwanifesimi-simi/CineLytics-Film-Portfolio-Analytics-Excel-Business-Intelligence-Project/blob/main/Screenshot1/03_outlier_detection_engine.png.png)
+
 **4. Platform-Genre Strategy Matrix**
 - 750 live AVERAGEIFS/COUNTIFS cells
 - Independent colour-scale conditional formatting per matrix
 - Dynamic best/worst genre lookup per platform using INDEX/MATCH
+
+![Platform genre strategy](https://github.com/Oluwanifesimi-simi/CineLytics-Film-Portfolio-Analytics-Excel-Business-Intelligence-Project/blob/main/Screenshot1/02_platform_genre_matrix.png.png)
   
 **5. Studio Efficiency Scorecard**
 
@@ -173,6 +168,9 @@ IF(AND(Avg_ROI <= IndustryAvgROI,
    "🔻 Underspending but Underperforming",
    "❌ Inefficient"))))
 ```
+
+![Studio efficiency matrix](https://github.com/Oluwanifesimi-simi/CineLytics-Film-Portfolio-Analytics-Excel-Business-Intelligence-Project/blob/main/Screenshot1/04_studio_efficiency_scorecard.png.png)
+
 **6. Franchise Director Analysis**
 ```
 excel
@@ -189,6 +187,8 @@ excel
 =FORECAST.ETS.CONFINT(target_year, revenue_history, year_history, 0.95, 1, 1)
 ```
 3-year projection (2025–2027) with 95% confidence intervals. Confidence bands reported as widening at year 3 — documented honestly rather than smoothed.
+
+![A 3-year revenue forecast](https://github.com/Oluwanifesimi-simi/CineLytics-Film-Portfolio-Analytics-Excel-Business-Intelligence-Project/blob/main/Screenshot1/05_revenue_forecast_chart.png.png)
 
 **8. Critical-to-Commercial Success Ratio**
 ```
