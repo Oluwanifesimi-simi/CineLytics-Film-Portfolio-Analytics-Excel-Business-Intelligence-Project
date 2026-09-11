@@ -3,22 +3,22 @@ A full-scale data analytics project simulating a real-world entertainment indust
 
 ## Table of Contents 
 
-- [📌 Project Overview](#project-overview)
-- [🗂️ Repository Structure](#repository-structure)
-- [📋 Dataset Specifications](#dataset-specifications)
-- [🗃️ Workbook Structure (8 Sheets)](#workbook-structure-8-sheets)
-- [🔍 Key Analyses Performed](#key-analysis-performed)
-- [💡 Key Findings](#key-findings)
-- [🛠️ Excel Techniques Reference](#excel-techniques-reference)
-- [📈 Business Questions Answered (20 Total)](#business-questions-answered-20-total)
-- [🚀 How to Use This Workbook](#how-to-use-this-workbook)
-- [📐 Project Specifications](#project-specifications)
-- [👩🏽‍💻 About This Project](#about-this-project)
-- [🔗 Connect](#connect)
-- [📄 License](#license)
+- [Project Overview](#project-overview)
+- [Repository Structure](#repository-structure)
+- [Dataset Specifications](#dataset-specifications)
+- [Workbook Structure (8 Sheets)](#workbook-structure-8-sheets)
+- [Key Analyses Performed](#key-analyses-performed)
+- [Key Findings](#key-findings)
+- [Excel Techniques Reference](#excel-techniques-reference)
+- [Business Questions Answered (20 Total)](#business-questions-answered-20-total)
+- [How to Use This Workbook](#how-to-use-this-workbook)
+- [Project Specifications](#project-specifications)
+- [About This Project](#about-this-project)
+- [Connect](#connect)
+- [License](#license)
 
 
-## 📌 Project Overview
+## Project Overview
 
 This project was developed as a portfolio case study simulating an analytics engagement for CineLytics Inc., a fictional global entertainment consultancy commissioned to evaluate a 15,000-title film portfolio spanning 2000–2024 across theatrical and streaming distribution channels.
 
@@ -27,7 +27,7 @@ The business problem: the client's executive team had no clear framework for ide
 The deliverable: a fully structured Microsoft Excel workbook containing a data cleaning audit, 20 answered business questions, five analytical frameworks, a statistical outlier detection engine, a 3-year revenue forecast, a platform-genre strategy matrix, and an executive dashboard — all powered by live formulas with zero hardcoded answers.
 
 
-## 🗂️ Repository Structure
+## Repository Structure
 
 ### [📊CineLytics_Film_Analytics_Dataset - Original.xlsx](https://github.com/Oluwanifesimi-simi/CineLytics-Film-Portfolio-Analytics-Excel-Business-Intelligence-Project/blob/main/CineLytics_Film_Analytics_Dataset%20-%20Original.xlsx)
 
@@ -45,7 +45,7 @@ The deliverable: a fully structured Microsoft Excel workbook containing a data c
 | `CineLytics_Film_Analytics_Dataset - Original.xlsx` | All 20 questions with techniques · Column-level documentation · Key findings write-up · Techniques and formulas used
 | `CineLytics-Film-Portfolio-Analytics-Excel-Business-Intelligence-Project/README.md` | Project narrative, table of contents, Structures, insights, and visual documentation. |
 
-## 📋 Dataset Specifications
+## Dataset Specifications
 | Attribute |	Detail |
 |-----------|----------|
 | Total Records	| 15,000 films |
@@ -57,7 +57,7 @@ The deliverable: a fully structured Microsoft Excel workbook containing a data c
 ### Columns included
 Movie ID · Movie Title · Genre · Production Budget ($M) · Box Office Revenue ($M) · Profit ($M) · Release Year · Release Month · Release Season · Runtime (min) · IMDb Rating · Rotten Tomatoes Score (%) · Director · Lead Actor/Actress · Production Company · Country · Streaming Platform · Number of Awards · Marketing Spend ($M) · Opening Weekend Sales ($M) · Audience Age Group · Viewer Rating (1–10) · Subscription Growth (%) · ROI (%) · Revenue per $ Budget · Profitability Tier
 
-## 🗃️ Workbook Structure (8 Sheets)
+## Workbook Structure (8 Sheets)
 **1. RAW DATA:**
 The full 15,000-row dataset with frozen headers, zebra-row formatting, and five additional derived columns added during analysis:
 | Column |	Name |	Purpose |
@@ -106,7 +106,7 @@ Executive dashboard shell with:
 - Live KPI formula cards (Total Films, Total Revenue, Total Profit, Avg ROI, Avg IMDb, Blockbusters, Loss Films)
 - Full setup instructions for Pivot Chart placement, Slicer connection, and Sparkline addition
 
-## 🔍 Key Analyses Performed
+## Key Analyses Performed
 
 **1. Data Cleaning & Audit**
 - Structural null identification using Go To Special → Blanks
@@ -199,7 +199,7 @@ C2C Ratio       = ROUND(Critical_Score / Commercial_Score, 2)
 ```
 Plotted on a quadrant scatter chart: Blockbuster Darlings · Critical Darlings · Commercial Hits · Underperformers.
 
-## 💡 Key Findings
+## Key Findings
 | S/N | Finding |	Implication|
 |-----------|-----------|----------|
 | 1	| ROI peaks at $40–75M budget; declines above $150M	| Challenges the tentpole investment strategy |
@@ -211,7 +211,7 @@ Plotted on a quadrant scatter chart: Blockbuster Darlings · Critical Darlings �
 | 7	| Franchise director premium disappears at portfolio level	| Blanket premium fees not supported by average-level data |
 | 8	| 79 Mega Blockbusters carry Severity Score = 3 across all outlier metrics	| Extreme outliers follow distinct genre and budget patterns |
 
-## 🛠️ Excel Techniques Reference
+## Excel Techniques Reference
 | Category	| Techniques |
 |------------|-----------|
 | Lookup & Reference	| XLOOKUP · VLOOKUP · INDEX-MATCH · Named Ranges |
@@ -224,7 +224,7 @@ Plotted on a quadrant scatter chart: Blockbuster Darlings · Critical Darlings �
 | Interactivity	| Pivot Tables · Slicers · Conditional Formatting · Data Validation |
 | Transformation | Power Query · Histogram & Bin Analysis · Dashboard Design |
 
-## 📈 Business Questions Answered (20 Total)
+## Business Questions Answered (20 Total)
 | S/N |	Question	| Difficulty |
 |-----------|-----------|-------------|
 | 1	| Which genres generate the highest average profit and ROI?	| Beginner |
@@ -248,7 +248,7 @@ Plotted on a quadrant scatter chart: Blockbuster Darlings · Critical Darlings �
 | 19	| Forecast total industry revenue for the next 3 years	| Advanced |
 | 20	| Identify statistical outliers — blockbusters and flops | Advanced |
 
-## 🚀 How to Use This Workbook
+## How to Use This Workbook
 
 *Step 1 — Start with DATA DICTIONARY* 
 Read the column definitions before touching any formula. Understanding what each column measures and its valid range prevents misinterpretation before it happens.
@@ -268,7 +268,7 @@ Once comfortable with Pivot outputs, open OUTLIER ANALYSIS and PLATFORM-GENRE MA
 *Step 6 — Build the Dashboard*
 Use the DASHBOARD TEMPLATE sheet as your canvas. Create Pivot Charts in SUMMARY STATS, then move them to the dashboard using Chart Tools → Move Chart → Object In → DASHBOARD TEMPLATE. Add Slicers via PivotChart Analyze → Insert Slicer.
 
-## 📐 Project Specifications
+## Project Specifications
 | Specification	| Detail |
 |-----------|------------|
 | Tool	| Microsoft Excel (365 compatible) |
@@ -281,7 +281,7 @@ Use the DASHBOARD TEMPLATE sheet as your canvas. Create Pivot Charts in SUMMARY 
 | Formula Error Rate	| 0% |
 | Time to Complete	| 4 weeks |
 
-## 👩🏽‍💻 About This Project
+## About This Project
 
 This project was built as a portfolio piece to demonstrate end-to-end data analytics capability in Microsoft Excel — from raw data ingestion and cleaning through statistical analysis, business intelligence, and executive-level reporting.
 
@@ -297,13 +297,13 @@ It was designed to simulate the kind of analytical engagement a Financial Data A
 
 **Open to:** Financial Data Analyst · Business Intelligence Analyst · Accounting & Finance Analyst roles (remote and international)
 
-## 🔗 Connect
+## Connect
 
 [LinkedIn](https://www.linkedin.com/in/oyinlola-oladeji-430108294/)
 
 [Email](http://mail.google.com/oluwanifesimi988@gmail.com)
 
-## 📄 License
+## License
 
 This project is shared for portfolio and educational purposes.
 Dataset is synthetically generated — no real film industry data or proprietary information is contained in this repository.
