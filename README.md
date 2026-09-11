@@ -28,23 +28,24 @@ The deliverable: a fully structured Microsoft Excel workbook containing a data c
 
 ## 🗂️ Repository Structure
 
-### [📊 CineLytics_Film_Analytics_Dataset.xlsx]("C:\Users\hp\OneDrive\Documenti\My Data Sources (For Training)\Excel Practise Training\CineLytics_Film_Analytics_Dataset - Original.xlsx")
+### [📊CineLytics_Film_Analytics_Dataset - Original.xlsx](https://github.com/Oluwanifesimi-simi/CineLytics-Film-Portfolio-Analytics-Excel-Business-Intelligence-Project/blob/main/CineLytics_Film_Analytics_Dataset%20-%20Original.xlsx)
 
 | 📁 screenshots | Purpose |
 |-----------------|-------------|
-| 01_executive_dashboard.png | 
-| 02_platform_genre_matrix.png |
+| 01_executive_dashboard.png | Chart Visualization |
+| 02_platform_genre_matrix.png | 
 | 03_outlier_detection_engine.png |
 | 04_studio_efficiency_scorecard.png |
 | 05_revenue_forecast_chart.png |
 | 6_genre_profitability_matrix.png |
 
-| 📁 docs | Purpose |
+| 📁 docs/Paths | Purpose |
 |-----------------|-----------------|
 | business_questions.md | All 20 questions with techniques |
 | data_dictionary.md | Column-level documentation |
 | insights_summary.md | Key findings write-up |
 | excel_skills_guide.md | Techniques and formulas used |
+| `https://github.com/Oluwanifesimi-simi/CineLytics-Film-Portfolio-Analytics-Excel-Business-Intelligence-Project`                          | Project narrative, table of contents, Structures, insights, and visual documentation. |
 
 ## 📋 Dataset Specifications
 | Attribute |	Detail |
