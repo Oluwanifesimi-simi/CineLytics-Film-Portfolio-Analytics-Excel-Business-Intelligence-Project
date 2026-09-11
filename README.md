@@ -291,7 +291,7 @@ It was designed to simulate the kind of analytical engagement a Financial Data A
 
 **Role:** Financial Data Analyst & Accountant
 
-**Location:** Ado, Ekiti State, Nigeria
+**Location:** Nigeria
 
 **Education:** M.Sc. Financial Engineering — WorldQuant University (expected 2027)
 
