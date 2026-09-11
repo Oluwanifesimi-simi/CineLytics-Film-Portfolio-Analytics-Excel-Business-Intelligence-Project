@@ -9,7 +9,7 @@ A full-scale data analytics project simulating a real-world entertainment indust
 - [Key Analyses Performed](#key-analyses-performed)
 - [Key Findings](#key-findings)
 - [Excel Techniques Reference](#excel-techniques-reference)
-- [Business Questions Answered (20 Total)](#business-questions-answered (20 Total))
+- [Business Questions Answered (20 Total)](#business-questions-answered20Total)
 - [How to Use This Workbook](#how-to-use-this-workbook)
 - [Project Specifications](#project-specifications)
 - [About This Project](#about-this-project)
@@ -41,7 +41,7 @@ The deliverable: a fully structured Microsoft Excel workbook containing a data c
 
 | 📁 docs/Paths | Purpose |
 |-----------------|-----------------|
-|                                | All 20 questions with techniques · Column-level documentation · Key findings write-up · Techniques and formulas used
+| `https://github.com/Oluwanifesimi-simi/CineLytics-Film-Portfolio-Analytics-Excel-Business-Intelligence-Project/blob/main/CineLytics_Film_Analytics_Dataset%20-%20Original.xlsx` | All 20 questions with techniques · Column-level documentation · Key findings write-up · Techniques and formulas used
 | `https://github.com/Oluwanifesimi-simi/CineLytics-Film-Portfolio-Analytics-Excel-Business-Intelligence-Project`                          | Project narrative, table of contents, Structures, insights, and visual documentation. |
 
 ## 📋 Dataset Specifications
